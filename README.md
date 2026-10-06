@@ -6,7 +6,7 @@
 **Zijian Jin\*, Yunbei Zhang\*, Yuanzhe Liu, Ming Liu, Baian Chen, Weirui Ye, Shilong Liu, Marco Pavone**<br>
 \*Equal contribution
 
-![DeepJEPA overview](assets/teaser.png)
+![DeepJEPA overview](assets/teaser.svg)
 
 ## Overview
 
@@ -18,7 +18,7 @@ Across five visual-control settings, DeepJEPA improves or matches the strongest 
 
 ## Method
 
-![DeepJEPA method](assets/method.png)
+![DeepJEPA method](assets/method.svg)
 
 DeepJEPA turns each imagined transition into a budgeted computation process:
 
@@ -29,7 +29,7 @@ DeepJEPA turns each imagined transition into a budgeted computation process:
 
 ## Main results
 
-![DeepJEPA main results](assets/main-results.png)
+![DeepJEPA main results](assets/main-results.svg)
 
 | Task | Best fixed | DeepJEPA | Gain | Mean depth |
 |---|---:|---:|---:|---:|
@@ -43,7 +43,7 @@ Values are mean success rates over three training and evaluation seed pairs. Mea
 
 ## Where computation goes
 
-![Interaction-aligned computation](assets/compute-allocation.png)
+![Interaction-aligned computation](assets/compute-allocation.svg)
 
 Adaptive computation is interaction aligned. Refinement rises at PushT contact onset and during sustained Cube Triple contact, even though the continue head receives no contact labels. This supports the paper's central view: allocate internal computation where it can change the planner's decision instead of making every rollout uniformly deeper or longer.
 
